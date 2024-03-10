@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Carbonite @Cashout_Assistant_Bot
+[Request Settings]
+Domain=carbonite
+ResponseValide="email_address": 
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	text/html; charset=utf-8
+Accept=True	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Body=
+URL=https://account.carbonite.com
+Method=GET
+
+[Parser Settings]
+ParsURL=https://account.carbonite.com/smb/dashboard
+ParsBefore="serverdatetime"
+ParsAfter="email_address": 
+UseParser=True
+MethodParser=All
+UseURL=True

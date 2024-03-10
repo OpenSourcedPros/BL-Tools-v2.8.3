@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Google Ads @Cashout_Assistant_Bot
+[Request Settings]
+Domain=google.com
+ResponseValide="fullPageLoad"] = true
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=True	https://myaccount.google.com
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://ads.google.com/aw/settings/account?
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=x22https:
+ParsAfter=USER'] =
+UseParser=True
+MethodParser=One
+UseURL=False

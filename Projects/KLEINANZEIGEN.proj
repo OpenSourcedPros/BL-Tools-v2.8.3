@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=KLEINANZEIGEN @Cashout_Assistant_Bot
+[Request Settings]
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+Domain=kleinanzeigen.de
+ResponseValide=<span id="user-email"
+X-Requested-With=False	XMLHttpRequest
+Referer=True	https://www.kleinanzeigen.de/
+ContentType=True	text/plain
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.kleinanzeigen.de/m-einstellungen.html#/personal-info
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=</span>
+ParsAfter=>angemeldet als:&nbsp;
+UseParser=True
+MethodParser=All
+UseURL=False

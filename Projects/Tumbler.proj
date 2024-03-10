@@ -1,0 +1,30 @@
+﻿[Project Settings]
+ProjectName=Tumbler️ @Cashout_Assistant_Bot
+[Request Settings]
+Domain=tumblr.com
+ResponseValide="hasTumblrPremium":
+Header5=
+Header4=<div id="glass-container">
+Header3=<div id="glass-container">
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=True	XMLHttpRequest
+Referer=True	https://myaccount.google.com
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.tumblr.com/settings/account
+Method=GET
+[Parser Settings]
+ParsURL=
+ParsBefore="tourGuides"
+ParsAfter={"name":
+UseParser=True
+MethodParser=One
+UseURL=False

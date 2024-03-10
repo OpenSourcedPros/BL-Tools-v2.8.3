@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Marriott @Cashout_Assistant_Bot
+[Request Settings]
+Domain=marriott.com
+ResponseValide=Points
+Header5=https://www.guilded.gg/i/k5da4zD2https://www.guilded.gg/i/k5da4zD2
+Header4=
+Header3=
+Header2=
+Header1=roomkey_api_key=a9bc92520c8acea6eadbc930b2ce2874
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=True
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.marriott.com/loyalty/myAccount/default.mi
+Method=GET
+
+[Parser Settings]
+ParsURL=https://www.marriott.com/loyalty/myAccount/default.mi
+ParsBefore="page_url_path_branch": 
+ParsAfter=var dataLayer = {
+UseParser=True
+MethodParser=All
+UseURL=False

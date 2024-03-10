@@ -1,0 +1,30 @@
+﻿[Project Settings]
+ProjectName=Shein @Cashout_Assistant_Bot
+[Request Settings]
+Domain=shein
+ResponseValide="accountInfo":{
+Header5=window.resolveLoading()
+Header4=@
+Header3=@
+Header2=
+Header1=@
+AddHeader5=True
+AddHeader4=True
+AddHeader3=True
+AddHeader2=True
+AddHeader1=True
+X-Requested-With=False	XMLHttpRequest
+Referer=True	https://accounts.google.com
+ContentType=True	application/json
+Accept=True	gzip, deflate, br
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://ca.shein.com/user/account_setting?from=navTop
+Method=GET
+[Parser Settings]
+ParsURL=
+ParsBefore="sex":
+ParsAfter="accountInfo":{
+UseParser=True
+MethodParser=One
+UseURL=False

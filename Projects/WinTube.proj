@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Wintub @Cashout_Assistant_Bot
+[Request Settings]
+Domain=wintub.com
+ResponseValide=<p> Account BALANCE </p>
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	text/plain
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://s4.wintub.com/dashboard.php
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=</p>
+ParsAfter=<h3>
+UseParser=True
+MethodParser=All
+UseURL=False

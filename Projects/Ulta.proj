@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Ulta @Cashout_Assistant_Bot
+[Request Settings]
+Domain=.ulta.
+ResponseValide=,"firstName":"
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/json
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body={"operationName":"NonCachedPage","variables":{"moduleParams":{"loginStatus":"hardLogin","lastSessionRefreshTime":"2023-12-27T08:56:30.516Z","gti":"d2f039bd-d5ee-44a3-ad48-241d1d2318ff"}},"query":"query NonCachedPage($stagingHost: String, $previewOptions: JSON, $moduleParams: JSON) {\n  Page: NonCachedPage(\n    stagingHost: $stagingHost\n    previewOptions: $previewOptions\n    moduleParams: $moduleParams\n    url: {path: \"https://www.ulta.com/account/rewards\"}\n    contentId: \"de6eff13-dbd4-4550-87b1-df60c85d5ec9\"\n  ) {\n    content\n    customResponseAttributes\n    meta\n    __typename\n  }\n}\n"}
+URL=https://www.ulta.com/v1/client/dxl/graphql?ultasite=en-us&User-Agent=gomez
+Method=POST
+
+[Parser Settings]
+ParsURL=
+ParsBefore="memberSince"
+ParsAfter=,"firstName":"
+UseParser=True
+MethodParser=One
+UseURL=False

@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Spotify @Cashout_Assistant_Bot
+[Request Settings]
+Domain=spotify.com
+ResponseValide=6 Premium Konten
+Header5=https://www.guilded.gg/i/k5da4zD2https://www.guilded.gg/i/k5da4zD2"name":
+Header4=Premium Aile
+Header3=data-encore-id="type"
+Header2=class="recurring-date"
+Header1=class="recurring-price"
+AddHeader5=https://www.guilded.gg/i/k5da4zD2False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=True	XMLHttpRequest
+Referer=False	
+ContentType=True	application/json
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.spotify.com/de/account/overview/?utm_source=spotify&utm_medium=menu&utm_campaign=your_account
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=]
+ParsAfter="benefits":[
+UseParser=True
+MethodParser=All
+UseURL=False

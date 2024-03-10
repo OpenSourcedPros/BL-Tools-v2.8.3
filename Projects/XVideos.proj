@@ -1,0 +1,32 @@
+﻿ @Cashout_Assistant_Bot
+[Project Settings]
+ProjectName=Xvideos @Cashout_Assistant_Bot
+[Request Settings]
+Domain=xvideos.com
+ResponseValide="is_logged":true
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.xvideos.com/account/subscriptions
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=,"iptrusted":0,
+ParsAfter="is_logged":true,
+UseParser=True
+MethodParser=One
+UseURL=False

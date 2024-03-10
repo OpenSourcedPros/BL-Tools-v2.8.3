@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=DH Gate @Cashout_Assistant_Bot
+[Request Settings]
+Domain=dhgate.com
+ResponseValide="message":"Success","serverTime"
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=True	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://dg.dhgate.com/mread/buyermember/pcBuyerBasicInfo.do?callback=jsonp_1702160854525_35832
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore=)
+ParsAfter="nickname":
+UseParser=True
+MethodParser=One
+UseURL=False

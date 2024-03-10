@@ -1,0 +1,14 @@
+﻿
+[Project Settings]
+ProjectName=Godaddy Login @Cashout_Assistant_Bot
+[Request Settings]
+Domain=godaddy.com
+ResponseValide=My Profile
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://sso.godaddy.com/profile/edit
+Method=GET

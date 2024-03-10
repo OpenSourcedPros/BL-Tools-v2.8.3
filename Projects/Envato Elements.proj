@@ -1,0 +1,14 @@
+﻿
+[Project Settings]
+ProjectName=Envato Elements @Cashout_Assistant_Bot
+[Request Settings]
+Domain=envato.com
+ResponseValide=fullName
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://account.elements.envato.com/account-details
+Method=GET

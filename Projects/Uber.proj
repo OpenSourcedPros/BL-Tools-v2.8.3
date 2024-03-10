@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Uber @Cashout_Assistant_Bot
+[Request Settings]
+Domain=uber
+ResponseValide=firstname\u0022:\u0022
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=Content-Security-Policy: block-all-mixed-content; frame-src 'self' privacy.uber.com privacy-beta.uber.com privacy-uberinternal.com myprivacy.uber.com; worker-src 'self'; child-src 'self'; connect-src 'self' https://api-js.mixpanel.com; manifest-src 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com 'nonce-5370216e-1c5d-4f09-9d50-2aea5976ba3e' https://www.google-analytics.com https://ssl.google-analytics.com maps.googleapis.com maps.google.com; style-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com; report-uri https://csp.uber.com/csp?a=uam-web&ro=false
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=True
+X-Requested-With=True	XMLHttpRequest
+Referer=True	https://www.uber.com/
+ContentType=True	text/html; charset=utf-8
+Accept=True	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://account.uber.com/?_ga=2.138701491.1642009931.1702073358-60446184.1700765529&_gl=1*1xwsq8*_ga*NjA0NDYxODQuMTcwMDc2NTUyOQ..*_ga_XTGQLY6KPT*MTcwMjY1MjE1OS40LjAuMTcwMjY1MjE1OS4wLjAuMA..&uclick_id=37e580eb-9060-47e0-a038-b64e169b226c&_csid=nJ4Sc4-ta4eTDt6smpmDLA&state=uql7JGzRhIyD78hP3rc98A5XsIP9hRBE-axprxdvauE%3D&effect=
+Method=GET
+
+[Parser Settings]
+ParsURL=https://account.uber.com/?_ga=2.138701491.1642009931.1702073358-60446184.1700765529&_gl=1*1xwsq8*_ga*NjA0NDYxODQuMTcwMDc2NTUyOQ..*_ga_XTGQLY6KPT*MTcwMjY1MjE1OS40LjAuMTcwMjY1MjE1OS4wLjAuMA..&uclick_id=37e580eb-9060-47e0-a038-b64e169b226c&_csid=nJ4Sc4-ta4eTDt6smpmDLA&state=uql7JGzRhIyD78hP3rc98A5XsIP9hRBE-axprxdvauE%3D&effect=
+ParsBefore=\
+ParsAfter=firstname\u0022:\u0022
+UseParser=True
+MethodParser=All
+UseURL=False

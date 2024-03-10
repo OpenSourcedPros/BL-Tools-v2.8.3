@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Eneba @Cashout_Assistant_Bot
+[Request Settings]
+Domain=eneba
+ResponseValide="currency":"
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=X-Version=1.339.0
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/json
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body={"operationName":"GetFullHeaderInfo","variables":{"currency":"EUR","context":{"country":"GB","region":"germany","language":"en"}},"query":"query GetFullHeaderInfo($context: ContextInput, $currency: Bank_Currency) {\n  User_user {\n    ...BasicUser\n    avatarPath\n    displayname\n    roles\n    supportedMerchant {\n      id\n      slug\n      displayname\n      __typename\n    }\n    __typename\n  }\n  Vendor_vendorDeclarationStatus {\n    status\n    seenNotification\n    __typename\n  }\n  Subscription_subscription {\n    status\n    __typename\n  }\n  myProductSubscriptions(context: $context, first: 1) {\n    totalCount\n    __typename\n  }\n  regions(context: $context, current: true) {\n    name\n    code\n    __typename\n  }\n  Bank_balance(currency: $currency) {\n    total {\n      ...Bank_Money\n      __typename\n    }\n    __typename\n  }\n  Content_announcements(unread: true) {\n    totalCount\n    __typename\n  }\n  chatsNotSeenCount(context: $context)\n  totalNew: merchantTickets(readByMerchant: false, statuses: [PENDING, REOPENED]) {\n    totalCount\n    __typename\n  }\n  totalDisputed: merchantTickets(readByMerchant: false, statuses: [DISPUTED]) {\n    totalCount\n    __typename\n  }\n}\n\nfragment BasicUser on User_User {\n  id\n  email\n  fullname\n  mfaEnabledAt\n  __typename\n}\n\nfragment Bank_Money on Bank_Money {\n  amount\n  currency\n  __typename\n}"}
+URL=https://my.eneba.com/graphql/
+Method=POST
+
+[Parser Settings]
+ParsURL=
+ParsBefore=},"
+ParsAfter=Bank_balance":{"total":{
+UseParser=True
+MethodParser=One
+UseURL=False

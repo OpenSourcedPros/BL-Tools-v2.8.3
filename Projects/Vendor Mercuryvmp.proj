@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Vendor Mercuryvmp @Cashout_Assistant_Bot
+[Request Settings]
+Domain=mercuryvmp
+ResponseValide=<td class="FolderValue">
+Header5=EDubKay
+Header4=DMV
+Header3=Fuse
+Header2=They are Snitches & Will Try To Extort You
+Header1=If-You-Run-Into-The-"Syndicates"
+AddHeader5=True
+AddHeader4=True
+AddHeader3=True
+AddHeader2=True
+AddHeader1=True
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://vendor.mercuryvmp.com/VendorAdmin/OrderManagement/Orders.aspx
+Method=GET
+
+[Parser Settings]
+ParsURL=https://vendor.mercuryvmp.com/VendorAdmin/OrderManagement/Orders.aspx
+ParsBefore=</td>
+ParsAfter="FolderValue">
+UseParser=True
+MethodParser=All
+UseURL=True
